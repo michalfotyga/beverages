@@ -6,5 +6,5 @@ public interface BeverageService {
     
     String sortedBeverages(List<String> beverages);
     
-    Map<String, Integer> countByName(List<String> beverages);
+    Map<String, Long> countByName(List<String> beverages);
 }
